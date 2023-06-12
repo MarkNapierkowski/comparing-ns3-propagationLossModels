@@ -193,7 +193,7 @@ int main(int argc, char *argv[])
     }
     if (models[3])
     {
-      wifiChannel.AddPropagationLoss("ns3::TwoRayGroundPropagationLossModel", "Frequency", DoubleValue(5.15e+09), "HeightAboveZ", DoubleValue(1), "MinDistance", DoubleValue(0.5),"SystemLoss", DoubleValue(1)); 
+      wifiChannel.AddPropagationLoss("ns3::TwoRayGroundPropagationLossModel", "Frequency", DoubleValue(5e9), "HeightAboveZ", DoubleValue(1), "MinDistance", DoubleValue(0.5),"SystemLoss", DoubleValue(1)); 
       //setting height variables to set a suitable scenario for this Loss-Model
       z1 = 1;
       z2 = 1;
