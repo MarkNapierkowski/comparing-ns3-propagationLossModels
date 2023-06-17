@@ -10,3 +10,5 @@ N specifies the model number you want to test in the simulation.
 2 = ThreeLogDistancePropagationLossModel
 3 = TwoRayGroundPropagationLossModel
 4 = NakagamiPropagationLossModel
+
+The output will appear in the ns3 folder as csv files like "Output1.csv" for <N> = 1.
